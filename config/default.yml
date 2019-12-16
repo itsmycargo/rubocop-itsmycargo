@@ -3,9 +3,11 @@ require:
   - rubocop-rails
   - rubocop-rspec
 
-
 AllCops:
   TargetRubyVersion: 2.6
+
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
 
 # Allow longer line length for bigger screens
 Metrics/LineLength:
@@ -21,3 +23,6 @@ Naming/FileName:
 Style/Documentation:
   Enabled: false
   StyleGuide: 'https://github.com/mikian/itsmycargo/blob/master/docs/Guide.adoc#classmodule-documentation'
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
