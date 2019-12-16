@@ -1,0 +1,19 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.6
+
+# Allow longer line length for bigger screens
+Metrics/LineLength:
+  Max: 120
+
+# Allow Ignoring filename requirements for initializers
+Naming/FileName:
+  Exclude:
+    - config/initializers/*.rb
+
+Style/Documentation:
+  Enabled: false
