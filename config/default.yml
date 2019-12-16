@@ -3,17 +3,21 @@ require:
   - rubocop-rails
   - rubocop-rspec
 
+
 AllCops:
   TargetRubyVersion: 2.6
 
 # Allow longer line length for bigger screens
 Metrics/LineLength:
   Max: 120
+  StyleGuide: 'https://github.com/mikian/itsmycargo/blob/master/docs/Guide.adoc#maximum-line-length'
 
 # Allow Ignoring filename requirements for initializers
 Naming/FileName:
   Exclude:
     - config/initializers/*.rb
+  StyleGuide: 'https://github.com/mikian/itsmycargo/blob/master/docs/Guide.adoc#snake-case-files'
 
 Style/Documentation:
   Enabled: false
+  StyleGuide: 'https://github.com/mikian/itsmycargo/blob/master/docs/Guide.adoc#classmodule-documentation'
