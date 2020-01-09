@@ -26,3 +26,7 @@ Style/Documentation:
 
 Style/MethodCalledOnDoEndBlock:
   Enabled: true
+
+# RSpec
+RSpec/MultipleExpectations:
+  AggregateFailuresByDefault: true
