@@ -30,3 +30,6 @@ Style/MethodCalledOnDoEndBlock:
 # RSpec
 RSpec/MultipleExpectations:
   AggregateFailuresByDefault: true
+
+RSpec/ExampleLength:
+  Max: 8
