@@ -23,6 +23,7 @@ jobs:
         git config --local user.name "ItsMyCargo"
     - run: bundle
     - run: rake bump:patch
+    - run: git push
 
     # - name: Publish to RubyGems
     #   run: |
