@@ -43,3 +43,8 @@ jobs:
         gem push --key github --host https://rubygems.pkg.github.com/itsmycargo *.gem
       env:
         GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    - name: Trigger Wolfhound Build
+      run: curl -s -XPOST "${WEBHOOK_URL}"
+      env:
+        WEBHOOK_URL: ${{DOCKER_WEBHOOK}}
