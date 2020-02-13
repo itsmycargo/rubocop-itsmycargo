@@ -47,4 +47,4 @@ jobs:
     - name: Trigger Wolfhound Build
       run: curl -s -XPOST "${WEBHOOK_URL}"
       env:
-        WEBHOOK_URL: ${{DOCKER_WEBHOOK}}
+        WEBHOOK_URL: ${{secrets.DOCKER_WEBHOOK}}
