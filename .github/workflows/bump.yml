@@ -18,6 +18,9 @@ jobs:
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.7'
+    - run: |
+        git config --local user.email "dev-services@itsmycargo.com"
+        git config --local user.name "ItsMyCargo"
     - run: bundle
     - run: rake bump:patch
 
