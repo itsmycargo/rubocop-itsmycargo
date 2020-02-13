@@ -42,4 +42,4 @@ jobs:
         gem build *.gemspec
         gem push --key github --host https://rubygems.pkg.github.com/itsmycargo *.gem
       env:
-        GH_TOKEN: ${{secrets.GPR_AUTH_TOKEN}}
+        GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
