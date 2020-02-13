@@ -2,6 +2,6 @@
 
 module Rubocop
   module Itsmycargo
-    VERSION = '0.1.4-rc'
+    VERSION = '0.1.5-rc'
   end
 end
