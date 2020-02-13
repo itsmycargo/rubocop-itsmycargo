@@ -2,8 +2,10 @@ name: Publish
 
 on:
   push:
-    tags:
-      - v*
+    paths:
+      - 'lib/rubocop/itsmycargo/version.rb'
+    branches:
+      - master
 
 jobs:
   build:
