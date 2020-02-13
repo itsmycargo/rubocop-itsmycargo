@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'rubocop-itsmycargo'
   spec.version       = Rubocop::Itsmycargo::VERSION
   spec.authors       = ['Mikko Kokkonen']
-  spec.email         = ['mikko.kokkonen@itsmycargo.com']
+  spec.email         = ['oss@itsmycargo.com']
 
   spec.summary       = 'RuboCop Styles and Configuration for ItsMyCargo.'
   spec.homepage      = 'https://github.com/itsmycargo/rubocop-itsmycargo'
@@ -26,11 +26,12 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rubocop', '~> 0.77'
-  spec.add_dependency 'rubocop-performance', '~> 1.5'
-  spec.add_dependency 'rubocop-rails', '~> 2.4'
-  spec.add_dependency 'rubocop-rspec', '~> 1.37'
+  spec.add_dependency 'rubocop'
+  spec.add_dependency 'rubocop-performance'
+  spec.add_dependency 'rubocop-rails'
+  spec.add_dependency 'rubocop-rspec'
 
+  spec.add_development_dependency 'bump', '~> 0.9'
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
