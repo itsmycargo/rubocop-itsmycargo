@@ -37,9 +37,3 @@ jobs:
       env:
         GEM_HOST_API_KEY: ${{secrets.GPR_AUTH_TOKEN}}
         OWNER: itsmycargo
-
-    - name: Trigger Docker Build
-      run: |
-        curl -XPOST -s "${WEBHOOK_URL}"
-      env:
-        WEBHOOK_URL: ${{secrets.DOCKER_WEBHOOK}}
