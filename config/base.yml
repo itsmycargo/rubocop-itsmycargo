@@ -1,0 +1,19 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - standard/cop/semantic_blocks
+
+inherit_gem:
+  standard: config/base.yml
+
+# Allow longer line length for bigger screens
+Layout/LineLength:
+  Max: 120
+  StyleGuide: 'https://github.com/itsmycargo/rubocop-itsmycargo/blob/master/docs/Guide.adoc#maximum-line-length'
+
+Style/Documentation:
+  Enabled: false
+  StyleGuide: 'https://github.com/itsmycargo/rubocop-itsmycargo/blob/master/docs/Guide.adoc#classmodule-documentation'
