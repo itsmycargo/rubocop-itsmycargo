@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'rubocop/itsmycargo/version'
+require "rubocop/itsmycargo/version"
 
 module Rubocop
   module Itsmycargo

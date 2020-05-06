@@ -2,11 +2,6 @@
 
 Limit lines to 120 characters.
 
-=== Snake Case Files [[snake-case-files]]
-
-Use `snake_case` for naming files, e.g. `hello_world.rb`.
-For Rails initialisers this naming rule is not enforced.
-
 === Class/Module Documentation [[class-documentation]]
 
 Top-level classes and modules are not required to have documentation.

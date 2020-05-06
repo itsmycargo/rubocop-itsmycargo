@@ -1,0 +1,5 @@
+inherit_from:
+  - config/base.yml
+
+Style/StringLiterals:
+  EnforcedStyle: 'single_quotes'
