@@ -1,5 +1,9 @@
 ### Next
+<<<<<<< HEAD
 ### v0.1.9-alpha-alpha-alpha-rc-rc - 2020-02-13
+=======
+### v0.2.0-alpha-alpha-alpha-rc-rc - 2020-05-06
+>>>>>>> bc0d7cb... v0.2.0
 ### v0.1.8-alpha-alpha-alpha-rc-rc - 2020-02-13
 ### v0.1.10-alpha-alpha-alpha-rc-rc - 2020-02-13
 ### v0.1.9-alpha-alpha-rc-rc - 2020-02-13
