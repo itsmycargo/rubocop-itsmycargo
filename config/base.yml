@@ -9,10 +9,38 @@ require:
 inherit_gem:
   standard: config/base.yml
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 # Allow longer line length for bigger screens
 Layout/LineLength:
   Max: 120
   StyleGuide: 'https://github.com/itsmycargo/rubocop-itsmycargo/blob/master/docs/Guide.adoc#maximum-line-length'
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+# TODO: Enable with Ruby2.6
+Style/SlicingWithRange:
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
