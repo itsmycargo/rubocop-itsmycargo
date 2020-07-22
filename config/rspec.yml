@@ -37,6 +37,9 @@ RSpec/LetBeforeExamples:
 RSpec/MissingExampleGroupArgument:
   Enabled: true
 
+RSpec/Pending:
+  Enabled: true
+
 RSpec/ReceiveCounts:
   Enabled: true
 
