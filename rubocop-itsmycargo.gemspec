@@ -28,7 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-rspec", "1.43.2"
   spec.add_dependency "standard", "0.6.0"
 
-  spec.add_development_dependency "bump", "~> 0.9"
   spec.add_development_dependency "bundler", "~> 2.1"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
