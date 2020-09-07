@@ -2,11 +2,10 @@
 
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rubocop/itsmycargo/version"
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-itsmycargo"
-  spec.version = Rubocop::Itsmycargo::VERSION
+  spec.version = "#{Time.now.strftime("%y.%m")}.#{ENV.fetch("GITHUB_RUN_NUMBER", "0")}"
   spec.authors = ["Mikko Kokkonen"]
   spec.email = ["oss@itsmycargo.com"]
 
@@ -24,7 +23,6 @@ Gem::Specification.new do |spec|
   end
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
 
   spec.add_dependency "rubocop-rails", "2.8.0"
   spec.add_dependency "rubocop-rspec", "1.43.2"
