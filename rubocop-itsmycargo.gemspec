@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
 
-  spec.add_dependency "rubocop-rails", "2.8.0"
+  spec.add_dependency "rubocop-rails", "2.8.1"
   spec.add_dependency "rubocop-rspec", "1.43.2"
   spec.add_dependency "standard", "0.6.0"
 
