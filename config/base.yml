@@ -25,3 +25,28 @@ Style/Documentation:
 # Disable Rubocop disable comments (widely mis-used)
 Style/DisableCopsWithinSourceCodeDirective:
   Enabled: true
+
+# Severities: refactor, convention, warning, error and fatal.
+Bundler:
+  Severity: fatal
+
+Gemspec:
+  Severity: fatal
+
+Layout:
+  Severity: error
+
+Lint:
+  Severity: error
+
+Metrics:
+  Severity: error
+
+Naming:
+  Severity: error
+
+Security:
+  Severity: error
+
+Style:
+  Severity: error
