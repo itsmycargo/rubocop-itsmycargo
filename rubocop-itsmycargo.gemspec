@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "mry", "~> 0.78"
   spec.add_dependency "rubocop-rails", "2.9.1"
   spec.add_dependency "rubocop-rspec", "2.1.0"
-  spec.add_dependency "standard", "0.11.0"
+  spec.add_dependency "standard", "0.12.0"
 
   spec.add_development_dependency "bundler", "~> 2.1"
   spec.add_development_dependency "rake", "~> 13.0"
