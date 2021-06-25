@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{config}/**/*"]
 
   spec.add_dependency "mry", "~> 0.78"
-  spec.add_dependency "rubocop-rails", "2.11.0"
+  spec.add_dependency "rubocop-rails", "2.11.1"
   spec.add_dependency "rubocop-rspec", "2.4.0"
   spec.add_dependency "standard", "1.1.1"
 
